@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background: url('path-to-doodle-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#font-size-display {
+    font-size: 2rem;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#copy_right_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+}
+
+canvas {
+    border: 2px solid #000;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px auto;
+}
+#heading{
+    background-color: orange;
+    color:white;
+    box-shadow:3px 3px 10px black;
+}
+h1{
+    text-align: center;
+}
+#by{
+color:white;
+text-align: center;
+}
